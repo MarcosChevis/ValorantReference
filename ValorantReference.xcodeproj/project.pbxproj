@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1F250028EDB7A000F80ADE /* AgentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F24FF28EDB7A000F80ADE /* AgentDetailView.swift */; };
 		BAE7696928EA9970007CF05E /* ValorantReferenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7696828EA9970007CF05E /* ValorantReferenceApp.swift */; };
 		BAE7696B28EA9970007CF05E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7696A28EA9970007CF05E /* ContentView.swift */; };
 		BAE7696D28EA9971007CF05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7696C28EA9971007CF05E /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA1F24FF28EDB7A000F80ADE /* AgentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailView.swift; sourceTree = "<group>"; };
 		BAE7696528EA9970007CF05E /* ValorantReference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValorantReference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE7696828EA9970007CF05E /* ValorantReferenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantReferenceApp.swift; sourceTree = "<group>"; };
 		BAE7696A28EA9970007CF05E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				BAE7696C28EA9971007CF05E /* Assets.xcassets */,
 				BAE7696E28EA9971007CF05E /* Preview Content */,
 				BAEDBE0F28EBC03600820DD6 /* Agent.swift */,
+				BA1F24FF28EDB7A000F80ADE /* AgentDetailView.swift */,
 			);
 			path = ValorantReference;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEDBE1028EBC03600820DD6 /* Agent.swift in Sources */,
+				BA1F250028EDB7A000F80ADE /* AgentDetailView.swift in Sources */,
 				BAE7696B28EA9970007CF05E /* ContentView.swift in Sources */,
 				BAE7696928EA9970007CF05E /* ValorantReferenceApp.swift in Sources */,
 			);

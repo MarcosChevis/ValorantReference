@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Agent {
+struct Agent: Hashable {
     let name: String
-    let agentType: AgentType
+    let type: AgentType
     let origin: String
-    let habilities: [String]
+    let abilities: [String]
 }
 
 enum AgentType: String {
